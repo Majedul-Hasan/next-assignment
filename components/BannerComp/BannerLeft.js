@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './BannerComp.module.css';
+import BtnComp from '../BtnComp';
 
 const BannerLeft = () => {
   const bannerSlog = [
@@ -43,6 +44,22 @@ const BannerLeft = () => {
           </span>
         ))}
       </h2>
+      <div className={styles.bannerBtnCont}>
+        <BtnComp
+          sowIcon={true}
+          text={'Chat now on Whatsapp'}
+          bg={'#075e54'}
+          border={'2px solid #075e54'}
+          color={'white'}
+        />
+        <BtnComp
+          sowIcon={false}
+          text={'Explore Our Service'}
+          bg={'#1d2233'}
+          border={'2px solid #5e76fd'}
+          color={'white'}
+        />
+      </div>
     </div>
   );
 };
