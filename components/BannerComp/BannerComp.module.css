@@ -137,10 +137,21 @@ margin-top: 25PX;
   }
 }
 
+@media screen and (min-width: 640px){
+.tagLiner {
+    font-size: 4.5rem;
+    padding: 6rem 2rem;
+}
+}
+
+
 @media screen and (min-width: 1200px){
-  .bannerLeft,
+  .bannerLeft{
+    width: 58%;
+
+  }
 .bannerRight {
-  width: 47%;
+  width: 40%;
 }
   .box{
     width: 22.5rem;
@@ -185,12 +196,18 @@ margin-top: 25PX;
   transform: translateY(170px) rotateX(-90deg);
   animation: rotateBottom 10s infinite linear;
 }
-
-}
-
-@media screen and (min-width: 768px){
 .tagLiner {
     font-size: 5rem;
-    padding: 6rem 2rem;
+   
 }
+
+}
+
+
+
+@media screen and (min-width: 1600px){
+  .tagLiner {
+      font-size: 6rem;
+  }
+  
 }

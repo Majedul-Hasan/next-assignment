@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import NavbarComp from '@/components/NavbarComp';
 import BannerComp from '@/components/BannerComp';
+import ServicesComp from '@/components/ServicesComp';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function Home() {
       <div className={styles.container}>
         <NavbarComp />
         <BannerComp />
+        <ServicesComp />
       </div>
     </>
   );

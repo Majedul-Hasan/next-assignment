@@ -14,7 +14,7 @@ const BannerLeft = () => {
     },
     {
       w: 'and,',
-      sty: 'gay',
+      sty: 'gray',
     },
     {
       w: ' execute your ideas ',
@@ -22,7 +22,7 @@ const BannerLeft = () => {
     },
     {
       w: 'with our ',
-      sty: 'gay',
+      sty: 'gray',
     },
     {
       w: 'innovative solutions',

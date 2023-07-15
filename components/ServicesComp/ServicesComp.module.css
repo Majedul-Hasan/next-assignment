@@ -1,0 +1,79 @@
+
+.servicesContainer {
+  background-color: #1e222e;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.serviceHeading,
+.serviceDetail {
+  text-align: center;
+  color: white;
+}
+.serviceHeading {
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;  
+    padding: 0 1rem;
+
+  }
+  .serviceDetail {
+       font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.75;
+    padding: 0 1rem;
+  }
+ .cardContainer {
+    max-width: 1600px;
+   
+  width: auto;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  color: white;
+  gap: 30px;
+}
+.card {
+  background: #242836;
+    padding: 1rem;
+    border: 1px solid #666;
+    border-radius: 3px;
+    margin: 1rem;  
+    transition: all .3s ease-in-out;
+}
+.card img {
+    border-radius: 10px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover img{
+    transform: scale(1.05);
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: rgb(39, 158, 255);
+}
+.techName {
+  font-size: large;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px){
+    .serviceHeading{
+    font-size: 2rem;
+    line-height: .75;
+    padding: 2rem 0;
+    }
+      .serviceDetail {
+    max-width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+}
