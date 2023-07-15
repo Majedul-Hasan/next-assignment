@@ -1,0 +1,36 @@
+.navbarCont{
+  width: 100%; 
+  border-bottom: 2px solid;
+  border-image: linear-gradient(100deg,#fb2576,#5e76fd 50%,#6df1af 110%);
+   z-index: 100;
+  border-image-slice: 1;
+}
+
+.navContent{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;    
+  display: flex;
+  align-items: center;
+  justify-content: left;
+ 
+  backdrop-filter: blur(12px);
+  color: white;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logoImg{
+        padding: .3rem;
+       
+}
+
+.company {
+    font-size: 2rem;
+   font-weight: bold;
+    letter-spacing: .2rem;
+        font-family: roboto ,sans-serif;
+  
+    margin: 0 0 0 0.75rem;
+}
