@@ -12,7 +12,9 @@ const Card = ({ src, text, link }) => {
         src={src}
         alt=''
       /> */}
-      <img
+      <Image
+        height={250}
+        width={390}
         src={src}
         alt=''
       />
