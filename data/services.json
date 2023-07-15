@@ -1,0 +1,69 @@
+
+    [
+  {
+     "id": 13054,
+    "text": "Software & App Devlopment",
+    "src": "https://www.xzect.com/assets/images/services/software-and-app-dev.jpg",
+    "link": "https://www.xzect.com/services/software-and-app-development"
+  },
+  {
+     "id": 16034,
+    "text": "Website Devlopment & SEO",
+    "src": "https://www.xzect.com/assets/images/services/website-dev-and-seo.jpg",
+    "link": "https://www.xzect.com/services/website-development-and-seo"
+  },
+  {
+     "id": 13734,
+    "text": "Cloud Service",
+    "src": "https://www.xzect.com/assets/images/services/cloud-services.jpg",
+    "link": "https://www.xzect.com/services/cloud-services"
+  },
+  {
+     "id": 13134,
+    "text": "Robotics & Automation",
+    "src": "https://www.xzect.com/assets/images/services/robotics.jpg",
+    "link": "https://www.xzect.com/services/robotics-and-automation"
+  },
+  {
+     "id": 13074,
+    "text": "3D Printing & Prototyping",
+    "src": "https://www.xzect.com/assets/images/services/3d-printing-and-prototyping.jpg",
+    "link": "https://www.xzect.com/services/3d-printing-and-prototyping"
+  },
+  {
+     "id": 13134,
+    "text": "Data Science & Analytics",
+    "src": "https://www.xzect.com/assets/images/services/data-science.jpg",
+    "link": "https://www.xzect.com/services/data-science-and-analytics"
+  },
+  {
+     "id": 13094,
+    "text": "AI & Machine Learning",
+    "src": "https://www.xzect.com/assets/images/services/machine-learning.jpg",
+    "link": "https://www.xzect.com/services/ai-and-machine-learning"
+  },
+  {
+     "id": 13023,
+    "text": "IOT, AR & VR",
+    "src": "https://www.xzect.com/assets/images/services/ar-vr.jpg",
+    "link": "https://www.xzect.com/services/iot-ar-vr"
+  },
+  {
+     "id": 10034,
+    "text": "Blockchain",
+    "src": "https://www.xzect.com/assets/images/services/blockchain.jpg",
+    "link": "https://www.xzect.com/services/blockchain-development"
+  },
+  {
+     "id": 13034,
+    "text": "Tech Consaltansy",
+    "src": "https://www.xzect.com/assets/images/services/tech-consultancy.jpg",
+    "link": "https://www.xzect.com/services/tech-consultancy"
+  },
+  {
+     "id": 19834,
+    "text": "Reserch & Devlopment",
+    "src": "https://www.xzect.com/assets/images/services/research-and-dev.jpg",
+    "link": "https://www.xzect.com/services/research-and-development"
+  }
+]
