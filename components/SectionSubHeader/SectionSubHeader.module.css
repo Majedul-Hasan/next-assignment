@@ -1,0 +1,19 @@
+.serviceDetail {
+       font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.75;
+    padding: 0 1rem;
+     text-align: center;
+  color: white
+  }
+
+
+
+  @media screen and (min-width: 1024px){
+ 
+      .serviceDetail {
+    max-width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+}
