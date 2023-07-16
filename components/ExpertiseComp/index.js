@@ -7,7 +7,7 @@ import data from '@/data/techs.json';
 import TechCardComp from './TechCardComp';
 
 const ExpertiseComp = () => {
-  console.log(data);
+
   return (
     <section className={styles.expertise}>
       <SectionHeader>

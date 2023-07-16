@@ -1,6 +1,6 @@
 import { BsWhatsapp } from 'react-icons/bs';
 
-const BtnComp = ({ sowIcon, text, bg, border, color }) => {
+const BtnComp = ({ sowIcon, text, bg, border, color, font }) => {
   const styleObj = {
     display: 'flex',
     alignItems: 'center',
@@ -14,7 +14,7 @@ const BtnComp = ({ sowIcon, text, bg, border, color }) => {
     color: color,
     border: border,
     borderRadius: '3px',
-    fontSize: '15px',
+    fontSize: font || '15px',
     fontWeight: 'bold',
   };
   return (

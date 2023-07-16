@@ -21,6 +21,7 @@ const ServicesBookingComp = () => {
             bg={'linear-gradient(145deg,#dd0255,  #441fff)'}
             border={'2px solid #5e76fd'}
             color={'white'}
+            font='1.375rem'
           />
         </div>
       </div>
