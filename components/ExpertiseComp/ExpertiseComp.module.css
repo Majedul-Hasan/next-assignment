@@ -1,0 +1,52 @@
+.expertise {
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.techStackContainer {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem; 
+    margin-bottom: 3rem; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  gap: 25px
+}
+.techCard {
+    display: flex;
+/* flex: 0 1 9.25rem; */
+    align-items: center;
+    background: #ffffff4a;
+    justify-content: center;  
+    color: #000;
+    border: 1px solid #fff;
+    padding: 0.5rem 0.25rem;
+    box-shadow: 2px 14px 20px 6px rgba(224,230,235,.58);
+    border-radius: 3px;
+    width: 190px;
+    gap: 1.2rem;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .techCard{       
+    flex: 0 1 12.5rem;  
+    transition: all .3s ease;
+    }
+
+
+}
+@media screen and (max-width: 930px) {
+
+  .techStackContainer {
+   
+    gap: 15px;
+   
+  }
+
+}
