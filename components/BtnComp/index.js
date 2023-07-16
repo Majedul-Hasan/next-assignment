@@ -6,7 +6,9 @@ const BtnComp = ({ sowIcon, text, bg, border, color }) => {
     alignItems: 'center',
     justifyContent: 'center',
     gap: '10px',
-    backgroundColor: bg,
+    // backgroundColor: bg,
+    background: bg,
+
     height: '55px',
     width: '100%',
     color: color,

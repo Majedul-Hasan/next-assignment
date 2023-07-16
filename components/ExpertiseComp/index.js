@@ -33,7 +33,7 @@ const ExpertiseComp = () => {
         ))}
       </div>
 
-      <div className={styles.btncoverExpertise}>
+      <div className={styles.btnCoverExpertise}>
         <BtnComp
           sowIcon={false}
           text={'Explore Our Entire Tech Stack'}

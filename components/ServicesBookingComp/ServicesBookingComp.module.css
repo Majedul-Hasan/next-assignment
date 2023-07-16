@@ -1,0 +1,51 @@
+.sectionContainer{
+        width: 100%;
+   
+    background: url('https://www.xzect.com/assets/images/patterns/ttten.svg') #0a0a23;
+    background-position: top;
+    background-size: cover;
+    
+    
+}
+
+.BookingContainer{
+    background-color: rgba(10, 10, 36, 0.82);
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+}
+.innerBody{
+    padding: 10PX 0;
+    color: #fff;
+     max-width: 1500px;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+.bookingHeading{
+    color: #fff;
+}
+.sectionIntro{
+    padding: 2rem;
+    margin-top: 2rem;
+    font-size: 3.75rem;
+    font-weight: 700;   
+    background-image: linear-gradient(100deg,#fb2576,#5e76fd 50%,#6df1af 110%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.btnContainer{
+        max-width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        margin-bottom: 75px;
+
+}
+
+.btn{
+    background-image: linear-gradient(145deg,#dd0255 , #441fff);
+}
