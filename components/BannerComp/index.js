@@ -5,12 +5,14 @@ import BannerRight from './BannerRight';
 
 const BannerComp = () => {
   return (
-    <div className={styles.bannerContainer}>
-      <div className={styles.bannerFlex}>
-        <BannerLeft />
-        <BannerRight />
+    <section className={styles.sectionHolder}>
+      <div className={styles.bannerContainer}>
+        <div className={styles.bannerFlex}>
+          <BannerLeft />
+          <BannerRight />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

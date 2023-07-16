@@ -1,9 +1,11 @@
 .navbarCont{
   width: 100%; 
+  position: sticky;
   border-bottom: 2px solid;
   border-image: linear-gradient(100deg,#fb2576,#5e76fd 50%,#6df1af 110%);
    z-index: 100;
   border-image-slice: 1;
+  top: 0;
 }
 
 .navContent{
@@ -16,7 +18,7 @@
  
   backdrop-filter: blur(12px);
   color: white;
-  height: 60px;
+  /* height: 60px; */
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;

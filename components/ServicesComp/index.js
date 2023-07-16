@@ -2,17 +2,19 @@ import React from 'react';
 import Card from './Card';
 import data from '@/data/services.json';
 import styles from './ServicesComp.module.css';
+import SectionHeader from '../SectionHeader';
+import SectionSubHeader from '../SectionSubHeader';
 
 const ServicesComp = () => {
   return (
     <section className={styles.servicesContainer}>
-      <h2 className={styles.serviceHeading}>
+      <SectionHeader>
         Customised Solutions for All Your Business Needs
-      </h2>
-
-      <p className={styles.serviceDetail}>
+      </SectionHeader>
+      <SectionSubHeader>
         Take Your Business to the Next Level with Our Industry-Leading Services
-      </p>
+      </SectionSubHeader>
+     
 
       <div className={styles.cardContainer}>
         {data.map((e, i) => (

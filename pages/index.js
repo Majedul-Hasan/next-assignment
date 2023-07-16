@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import NavbarComp from '@/components/NavbarComp';
 import BannerComp from '@/components/BannerComp';
 import ServicesComp from '@/components/ServicesComp';
+import ExpertiseComp from '@/components/ExpertiseComp';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -30,6 +31,7 @@ export default function Home() {
         <NavbarComp />
         <BannerComp />
         <ServicesComp />
+        <ExpertiseComp />
       </div>
     </>
   );
