@@ -14,7 +14,7 @@
     max-width: 1600px;    
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
  
   backdrop-filter: blur(12px);
   color: white;
@@ -23,6 +23,28 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.navLeftItems{
+    display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.hamburgerMenu {
+  font-size: 2rem;
+}
+.hamburgerMenu svg{
+ color: rgb(86, 86, 86);
+
+ cursor: pointer;
+ 
+}
+.hamburgerMenu path{
+
+ fill: rgb(86, 86, 86);;
+ stroke: aliceblue;
+  stroke-width: 1px;
+
+}
+
 .logoImg{
         padding: .3rem;
        

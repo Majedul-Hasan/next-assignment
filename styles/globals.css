@@ -11,18 +11,14 @@ html{
   font-family: roboto ,sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
 body {
   max-width: 100vw;
 }
 
-
+a{
+  text-decoration: none;
+  color: inherit;
+}
 /* style for banner */
 ul{
   list-style: none;
