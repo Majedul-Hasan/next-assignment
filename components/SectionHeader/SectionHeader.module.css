@@ -1,0 +1,19 @@
+
+.serviceHeading {
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;  
+    padding: 0 1rem;
+     text-align: center;
+  color: white;
+
+  }
+
+  @media screen and (min-width: 1024px){
+    .serviceHeading{
+    font-size: 2.5rem;
+    line-height: .75;
+    padding: 2rem 0;
+    }
+    
+}
